@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!-- libraries -->
+  <link type="text/css" rel="stylesheet" href="./lib/tachyons-4.9.1.min.css" />
+  <link type="text/css" rel="stylesheet" href="./lib/colors-2.2.0.min.css" />
+  <link type="text/css" rel="stylesheet" href="./lib/loading-animation.css" />
+  <script type="text/javascript" src="./lib/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./lib/paper-full-v0.11.5.min.js"></script>
+  <script type="text/javascript" src="./lib/Tone-reserved.min.js"></script>
+  <!-- <script type="text/javascript" src="./lib/p5.min-v0.6.1.js"></script> -->
+  <!-- <script type="text/javascript" src="./lib/p5.sound.min-v0.3.7.js"></script> -->
+  <script type="text/javascript" src="./lib/socket.io-v2.1.1.slim.js"></script>
+  <!-- <script type="text/javascript" src="./lib/hammer-v2.0.8.min.js"></script> -->
+  <!-- <script type="text/javascript" src="./lib/lodash-full-v4.17.10.min.js"></script> -->
+  <script type="text/javascript" src="./lib/util.js"></script>
+  <!-- code -->
+  <script type="text/paperscript" src="./index.js" canvas="screen"></script>
+  <style>
+    html,
+    body {
+      /* height: 100%; */
+    }
+
+    /* Scale canvas with resize attribute to full size */
+    canvas[resize] {
+      width: 100%;
+      height: 100%;
+      max-width: 500px;
+      min-height: 600px;
+    }
+
+    #wrapper {
+      height: 57vh;
+      min-height: 600px;
+    }
+  </style>
+</head>
+
+<body class="pa3 bg-green">
+
+  <div id="wrapper" class="w-100 center">
+    <canvas id="screen" resize></canvas>
+  </div>
+
+  <div class="helvetica">
+    <p>
+      <h1 class="b black">Hello</h1>
+      <h2 class="yellow">There?</h2>
+      <p class="pt3 pa2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="phonehand.png"></img>
+    </p>
+  </div>
+
+</body>
+
+</html>
